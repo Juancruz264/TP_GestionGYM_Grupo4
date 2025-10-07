@@ -5,49 +5,28 @@ El administrador puede gestionar clientes y clases mediante operaciones de alta,
 
 
 entidades principales:
-
-usuario
-
-clientes
-
-administrador
-
-clases
-
-suscripciones
-
-pagos
-
-facturación
-
+- usuario
+- clientes
+- administrador
+- clases
+- suscripciones
+- pagos
+- facturación
 
 Funcionalidades principales:
-
-El sistema debe permitir al administrador ABM de clientes.
-
-El sistema debe permitir al administrador ABM de clases.
-
-El sistema debe permitir elegir al usuario entre cliente o administrador
-
-El sistema debe permitir el inicio de sesión en el sistema con correo y contraseña
-
-El sistema debe permitir el registro al sistema completando un formulario con datos básicos
-
-El sistema debe permitir la inscripción a clases.
-
-El sistema debe permitir al usuario poder visualizar el precio de cada suscripción.
-
-El sistema debe permitir al cliente adquirir una suscripción
-
-El sistema debe ofrecer una interfaz para realizar el pago por suscripción
-
-El sistema debe ofrecer un comprobante de facturación al cliente al finalizar el pago.
+- El sistema debe permitir al administrador ABM de clientes.
+- El sistema debe permitir al administrador ABM de clases.
+- El sistema debe permitir elegir al usuario entre cliente o administrador
+- El sistema debe permitir el inicio de sesión en el sistema con correo y contraseña
+- El sistema debe permitir el registro al sistema completando un formulario con datos básicos
+- El sistema debe permitir la inscripción a clases.
+- El sistema debe permitir al usuario poder visualizar el precio de cada suscripción.
+- El sistema debe permitir al cliente adquirir una suscripción
+- El sistema debe ofrecer una interfaz para realizar el pago por suscripción
+- El sistema debe ofrecer un comprobante de facturación al cliente al finalizar el pago.
 
 reportes:
-
-El sistema debe permitir al administrador poder visualizar una lista de clientes activos junto a las suscripciones que los mismos están pagando, junto al monto. 
-
-El sistema debe ofrecer un reporte de los ingresos mensuales por suscripciones pagas
-
-El sistema debe ofrecer un reporte que muestre un balance sobre la membresía más adquirida en el último mes.
+- El sistema debe permitir al administrador poder visualizar una lista de clientes activos junto a las suscripciones que los mismos están pagando, junto al monto. 
+- El sistema debe ofrecer un reporte de los ingresos mensuales por suscripciones pagas
+- El sistema debe ofrecer un reporte que muestre un balance sobre la membresía más adquirida en el último mes.
 
