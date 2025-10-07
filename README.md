@@ -14,6 +14,7 @@ facturación
 
 Funcionalidades principales:
 El sistema debe permitir al administrador ABM de clientes.
+
 El sistema debe permitir al administrador ABM de clases.
 El sistema debe permitir elegir al usuario entre cliente o administrador
 El sistema debe permitir el inicio de sesión en el sistema con correo y contraseña
