@@ -30,3 +30,7 @@ reportes:
 - El sistema debe ofrecer un reporte de los ingresos mensuales por suscripciones pagas
 - El sistema debe ofrecer un reporte que muestre un balance sobre la membresía más adquirida en el último mes.
 
+El sistema poseera tres capas bien diferenciadas: 
+- Capa de Interacción con el usuario (Interfaz grafica): Esta capa va a ser la que recoja los datos que ingresa el usuario y a su vez muestra por pantalla los referentes outputs.Cuando un usuario ingresa informacion, esta se traduce y se comunica con la Capa de Modelo de negocio. Para implementarla usaremos un poryecto de tipo Windows Forms.
+- Capa de Modelo del Negocio: Recibe la informacion ingresada por el usuario, aplica validaciones, calculos y reglas del negocio sobre ella. Su función es transformar los datos en acciones sobre el modelo. Luego se comunica con la siguiente capa. Para implementarla usaremos una Biblioteca de Clases.
+- Capa de persistencia (conexión a la Base de Datos): Se encarga de la interacción con la base de datos. Traduce las clases en tablas donde se va a almacenar los datos recogidos. Esto se logra realizando correctamente las migraciones con el Entity Framework (mapeador). Para implementarla usaremos Repositorios, que son una clase que sirve como intermediaria entre la Logica de negocio y la base de datos. La clase ApplicationDbContext, que hereda de DbContext, es la que realiza la coneccion con la base de datos y define las tablas. 
