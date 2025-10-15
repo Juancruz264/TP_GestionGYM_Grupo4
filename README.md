@@ -33,3 +33,7 @@ El sistema poseera tres capas bien diferenciadas:
 - Capa de persistencia (conexión a la Base de Datos): Se encarga de la interacción con la base de datos. Traduce las clases en tablas donde se va a almacenar los datos recogidos. Esto se logra realizando correctamente las migraciones con el Entity Framework (mapeador). Para implementarla usaremos Repositorios, que son una clase que sirve como intermediaria entre la Logica de negocio y la base de datos. La clase ApplicationDbContext, que hereda de DbContext, es la que realiza la coneccion con la base de datos y define las tablas. 
 
 Link del diagrama de clases: - https://drive.google.com/file/d/1PKeG6zoc04bshShxsDWsvIrv7a3FgKA_/view?usp=sharing
+
+
+
+...
